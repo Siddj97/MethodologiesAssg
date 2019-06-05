@@ -19,7 +19,7 @@ namespace Classlibrary2
             int s2 = 6;
             int s3 = 7;
 
-            string expectedResult = "Scalene Triangle";
+            string expectedResult = "For the given userInput  Scalene Triangle";
 
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
@@ -32,12 +32,13 @@ namespace Classlibrary2
 
         void Analyze_Input5and5and5_Return_EquilateralTriangle()
         {
+
             //Arrange
             int s1 = 5;
             int s2 = 5;
             int s3 = 5;
 
-            string expectedResult = "Equilateral Triangle";
+            string expectedResult = "For the given userInput Equilateral Triangle";
 
 
             //Act
@@ -78,7 +79,7 @@ namespace Classlibrary2
             int s2 = 8;
             int s3 = 8;
 
-            string expectedResult = "Isosceles Triangle";
+            string expectedResult = "For the given userInput Isosceles Triangle";
 
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
@@ -99,7 +100,7 @@ namespace Classlibrary2
             int s2 = 25;
             int s3 = 21;
 
-            string expectedResult = "Saclene Triangle";
+            string expectedResult = "For the given userInput  Scalene Triangle";
 
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
@@ -120,7 +121,7 @@ namespace Classlibrary2
             int s2 = 65;
             int s3 = 70;
 
-            string expectedResult = "Scalene Triangle";
+            string expectedResult = "For the given userInput  Scalene Triangle";
 
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
@@ -143,7 +144,7 @@ namespace Classlibrary2
             int s2 = 9;
             int s3 = 9;
 
-            string expectedResult = "EqualiatralTriangle";
+            string expectedResult = "For the given userInput Equilateral Triangle";
 
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
@@ -162,7 +163,7 @@ namespace Classlibrary2
             int s3 = 50;
 
 
-            string expectedResult = "Isosceles  Triangle";
+            string expectedResult = "For the given userInput Isosceles Triangle";
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
 
