@@ -21,7 +21,6 @@ namespace Classlibrary2
 
             string expectedResult = "Scalene Triangle";
 
-
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
 
@@ -39,6 +38,7 @@ namespace Classlibrary2
             int s3 = 5;
 
             string expectedResult = "Equilateral Triangle";
+
 
             //Act
             string actualResult = TriangleSolver.Analyze(s1, s2, s3);
